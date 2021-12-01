@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    text-align: center;
+    color: white;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0px;
+}
+.hero li{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin: 20px 3px 3px 0px;
+    padding: 4px;
+}
+.hero li a{
+    border: solid white 1px;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{background: rgba(34, 33, 33, 0.815);}
+a:link, a:visited{color: white;}
+
+.hero h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+    margin-top: 150px;
+}
+
+.hero p{
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+main{
+    margin: auto;
+    background-color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-section{
+    background: white;
+    margin-top: 25px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    display: block;
+}
+.main-content{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding-top: 6px;
+    margin-top: 15px;
+}
+.main-content h2{
+    background-color: #ccc;
+    font-size: 20px;
+    padding: 5px 0px 0px 15px;
+    border-bottom: solid gray 1px;
+    margin: 4px;
+    }
+
+footer{
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    color: white;
+
+}
